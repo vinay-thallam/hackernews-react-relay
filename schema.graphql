@@ -492,7 +492,6 @@ type Mutation {
   removeFromUsersLinks(input: RemoveFromUsersLinksLinkInput!): RemoveFromUsersLinksPayload
   createUser(input: SignupUserInput!): CreateUserPayload!
   signinUser(input: SigninUserInput!): SigninPayload!
-  createUser(input: SignupUserInput!): CreateUserPayload!
 }
 
 # If authentication was successful the payload contains the user and a token. If unsuccessful this payload is null.
