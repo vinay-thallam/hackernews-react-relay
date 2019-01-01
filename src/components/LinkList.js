@@ -19,6 +19,7 @@ class LinkList extends Component {
 
 }
 
+//Observe that child components fragment (Link_link)  can be included into this fragment.
 export default createFragmentContainer(LinkList, graphql`
   fragment LinkList_viewer on Viewer {
     allLinks(last: 100, orderBy: createdAt_DESC) @connection(key: "LinkList_allLinks", filters: []) {
