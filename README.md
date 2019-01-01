@@ -72,3 +72,11 @@ You’ll download the schema using a tool called get-graphql-schema.
 schema.graphql file needs to be placed in the root directory of your project.
 
 That’s it, We are done with setting up.
+
+
+Before running the application run the below command :
+
+`./node_modules/relay-compiler/bin/relay-compiler --src ./src --schema ./schema.graphql`
+
+The relay-compiler will now scan all files in src and look for graphql code. It then takes this code and generates corresponding Javascript representations for it (which again will be the input for the Babel compilation step). These Javascript representations are stored in ./src/__generated__.
+
