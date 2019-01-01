@@ -12,7 +12,7 @@ Type below command into terminal
 
 This will create *project.graphcool* file in the directory where command was ran.
 
-## Populate The Database & GraphQL Playgrounds
+### Populate The Database & GraphQL Playgrounds
 
 
 Open up a terminal and navigate to the directory where project.graphcool is located. Then execute the following command:
