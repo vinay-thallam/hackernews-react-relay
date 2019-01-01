@@ -20,6 +20,8 @@ class Link extends Component {
 
 }
 
+//Create HOC using createFragmentContainer like below. Having component with its data requirements at one place is called colocation.
+//Fragment name here "Link_link" is following <component_name>_<prop_name> syntax.
 export default createFragmentContainer(Link, graphql`
   fragment Link_link on Link {
     id
