@@ -1,6 +1,6 @@
 This is a tutorial from howtographql.com website.
 
-###Setup Backend and datamodel
+### Setup Backend and datamodel
 
 Install graphcool CLI with npm
 
@@ -12,7 +12,7 @@ Type below command into terminal
 
 This will create *project.graphcool* file in the directory where command was ran.
 
-##Populate The Database & GraphQL Playgrounds
+## Populate The Database & GraphQL Playgrounds
 
 
 Open up a terminal and navigate to the directory where project.graphcool is located. Then execute the following command:
@@ -21,7 +21,7 @@ Open up a terminal and navigate to the directory where project.graphcool is loca
 
 This will fire up a browser window with graphcool playground. Create some links using mutations in that ( Check the schema and run accordinlgy )
 
-###Setup Frontend application.
+### Setup Frontend application.
 
 Run below commands :
 
