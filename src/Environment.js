@@ -1,3 +1,5 @@
+import { GC_AUTH_TOKEN } from './constants'
+
 // 1
 const {
     Environment,
@@ -16,7 +18,8 @@ const network = Network.create((operation, variables) => {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${localStorage.getItem(GC_AUTH_TOKEN)}`
         },
         body: JSON.stringify({
             query: operation.text,
